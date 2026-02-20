@@ -4,4 +4,4 @@ tasks:
   default:
     desc: Create nextjs project
     cmds:
-      - npx create-next-app@latest --yes {{.CLI_ARGS | default "my-app"}}
+      - npx -y create-next-app@latest --yes {{.CLI_ARGS | default "my-app"}}
